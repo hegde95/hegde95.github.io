@@ -11,54 +11,107 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Robotic Embedded Systems Lab, University of Southern California
+    url: "https://robotics.usc.edu/resl/"
+    location: Los Angeles, CA
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: RESL is a research lab at the University of Southern California. The lab is headed by Prof. Gaurav Sukhatme. The lab is focused on robotics and AI research.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: PhD Researcher
+    start: Sept 2021
+    # end: August 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Develop sample efficient leaning methods for quadruped hurdling tasks on SLURM clusters. Use Sample factory for distributed learning with reduced policy lag.
+    - Experiment with audio based communication between agents for multi agent reinforcement learning.
+    - Create high performing small Neural Networks on AWS for robotic control, to fulfill device and time latency constraints.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: SalesDNA (stealth mode Startup)
+    # url: "https://www.example.com"
+    location: Los Angeles, CA
+    # company overview
+    overview: This company investigates the application of AI in the field of sales
+  positions:
+  - designation: Data Scientist
+    start: May 2021
+    end: August 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Built data pipelines for collection, cleaning and modelling. Use real time Markov modelling for a sales process.
+    - Built model free reinforcement learning algorithms to build AI strategies on this sales simulation.
+
+- company:
+    name: Stochastic Systems & Learning Laboratory, University of Southern California
+    url: "https://viterbi-web.usc.edu/~rahuljai/Welcome.html"
+    location: Los Angeles, CA
+    # company overview
+    overview: SSLL is a research lab at the University of Southern California. The lab is headed by Prof. Rahul Jain. The lab is focused on theoretical reinforcement learning .
+  positions:
+  - designation: Reasearch Assistant
+    start: May 2020
+    end: May 2021
+    responsibilities:
+    - Build scale-able Reinforcement Learning policies using function approximators with lesser trainable parameters.
+    - Study and Apply state of the art Imitation Learning techniques to self driving vehicles and experiment on Hyper realistic simulations such as CARLA.
+
+- company:
+    name: Dynamic Robotics and Control Laboratory[, University of Southern California
+    url: "https://viterbi-web.usc.edu/~rahuljai/Welcome.html"
+    location: Los Angeles, CA
+    # company overview
+    overview: DRCL is a research lab at the University of Southern California. The lab is headed by Prof. Quan Nguyen. The lab is focused on robotic control.
+  positions:
+  - designation: Reasearch Assistant
+    start: November 2019
+    end: October 2020
+    responsibilities:
+    - Simulate and control a quadruped mini cheetah robot on Pybullet and Gazebo, by using stochastic control with policy gradient based agents. Test the RL controller on the actual robot after integration with ROS.
+    - Experiment on different action spaces such as impedance control, torque control, force control, and use hybrid learning methods with model predictive control to help faster learning. Use RLLib for distributed learning.
+
+- company:
+    name: Fidelity Investments
+    url: "https://www.fidelity.com/"
+    location: Bangalore, India
+    overview: Fidelity Investments is renowned financial institution that specializes in investment management, retirement planning, portfolio guidance, brokerage, benefits outsourcing, and many other financial products and services.
   positions:
   - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+    start: July 2017
+    end: July 2019
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Develop applications based on Supervised Machine Learning for trade order selection and efficient execution.
+    - Research on Reinforcement Learning and its application on portfolio construction in equity trading. A Gym simulation was built using real trading data. Google Tensorflow was used during the course of this work.
+    - Worked with the Equity Trading team to develop and support the java and python based trading engine. Gained experience in java spring-boot, python flask, SQL, splunk, AWS and many other software developer tools.
+  - designation: Software Engineer Intern
+    start: June 2016
+    end: August 2016
+    responsibilities:
+    - Worked with the fixed income research team to build a complete end to end application using .NET and Excel VBA. Gained experience in the Microsoft Windows Presentation framework for building hard clients.
+
+# - company:
+#     name: Fidelity Investments
+#     url: "https://www.fidelity.com/"
+#     location: Bangalore, India
+#     overview: Fidelity Investments is renowned financial institution that specializes in investment management, retirement planning, portfolio guidance, brokerage, benefits outsourcing, and many other financial products and services.
+#   positions:
+#   - designation: Software Engineer Intern
+#     start: June 2016
+#     end: August 2016
+#     responsibilities:
+#     - Worked with the fixed income research team to build a complete end to end application using .NET and Excel VBA. Gained experience in the Microsoft Windows Presentation framework for building hard clients.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Mangalore University.
+    # url: "https://www.example.com"
+    location: Mangalore, India
+    overview: Laboratory of Applied Biology, Kuppers Biotech Unit.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Research Intern
+    start: May 2014
+    end: June 2015
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Predicting growth trend of algae after studying the effect of light on enhanced algal bio-fuel production. These predictions were done using Linear regression on the collected time series data.

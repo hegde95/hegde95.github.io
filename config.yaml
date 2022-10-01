@@ -1,7 +1,7 @@
 baseURL: https://hegde95.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Shashank's Blog"
 theme: "toha"
 
 # Manage languages
@@ -41,14 +41,14 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/la.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/ai_icon.jpeg
+    inverted: /images/site/ai_icon.jpeg
+    favicon: /images/site/ai_icon.jpeg
 
   # GitHub repo of your site
   gitRepo: https://github.com/hegde95/hegde95.github.io
