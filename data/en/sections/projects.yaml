@@ -12,53 +12,99 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: Autonomous Vehicles
+  filter: "autonomous vehicles"
+- name: Machine Learning
+  filter: "machine learning"
+- name: Deep Reinforcement Learning
+  filter: "deep reinforcement learning"
+- name: Deep Learning
+  filter: "deep learning"
+- name: Signal Processing
+  filter: "signal processing"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+- name: Autonomous Vehicle Navigation
+  # logo: /images/sections/projects/kubernetes.png
+  role: Team member
+  timeline: "August 2019 - May 2021"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: As a part of the Autonomous Vehicle lab, I worked on navigation, path planning and simulation of an autonomous car to take part in IGVC 2021. I used Gazebo to build an accurate simulation of the track, and implement path finding algorithms such as A star.
+  tags: ["autonomous vehicles"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
+- name: Competetive and Co-operative Multi Agent Reinforcement Learning
+  # logo: /images/sections/projects/tensorflow.png
+  role: Individual Researcher
+  timeline: "Jun 2020 - August 2020"
+  url: https://hegde95.github.io/Deep_Reinforcement_Learning.pdf
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  summary: As a part of my directed research with the Hardware Accelerated Learning group, I’m experimented with various multi agent reinforcement learning algorithms. The goal of this project is to understand the state of the art RL algorithms that work well in both competitive and cooperative environments.
+  tags: ["machine learning", "deep reinforcement learning"]
 
-- name: A sample academic paper
+- name: Torque Transfer
   role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+  timeline: "August 2020 - December 2020"
+  url: "https://csci-599-applied-ml-for-games.github.io/Torque-Transfer-/"
+  repo: "https://github.com/csci-599-applied-ml-for-games/Torque-Transfer-"
+  summary: Use reinforcement learning and transfer learning to create robust AI agents. The AI agent should generalize to a variety of open world self driving simulations. After training an AI for a self driving car simulation using Imitation learning and reinforcement learning, the learnt policy was used as a pre trained network for an AI agent in another self driving simulation. The pretrained model showed faster learning in the new simulation.
+  tags: ["autonomous vehicles","deep reinforcement learning"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: Emotion Transfer on speech using spectrogram images
+  role: Team Lead
+  timeline: "August 2020 - December 2020"
+  url: "https://csci-599-applied-ml-for-games.github.io/Torque-Transfer-/"
+  repo: "https://github.com/csci-599-applied-ml-for-games/Torque-Transfer-"
+  summary: Use a conditional Generative Adversarial Neural Network to generate images on spectrograms of speech signals. By using cycle GANs we use style transfer on spectrograms of speech signals to embed emotion in them. The generated spectrogram is reconstructed back to speech using the Griffin-Lim algorithm.
+  tags: ["deep learning","signal processing"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Fashion compatibility prediction
+  role: Team Lead
+  timeline: "Jan 2020 - May 2020"
+  # url: "https://github.com/hegde95/Keras-Models"
+  repo: "https://github.com/hegde95/Keras-Models"
+  summary: Use a Siamese Convolutional Neural Network to classify if two fashion objects are compatible with each other. Then using the pair-wise similarity scores predicted to see if an outfit is compatible. To do this Google Tensorflow 2.0 was used and the models were trained on AWS p3.2xlarge instances (Tesla V100 GPUs).
+  tags: ["deep learning"]
+
+- name: Spoken Language classifier
+  role: Individual Researcher
+  timeline: "Jan 2020 - May 2020"
+  # url: "https://github.com/hegde95/Keras-Models"
+  repo: "https://github.com/hegde95/Spoken_language_classifier"
+  summary: Implement a Gated Recurrent Unit based Neural Network to classify the extracted MFCC features from speech audio. A streaming model classifies the language being spoken in real time. Using this streaming model, we could analyse the probability of miss-classification at every instant of speech.
+  tags: ["deep learning"]
+
+- name: Prosthetic Voice (Thesis)
+  role: Team member
+  timeline: "August 2016 - May 2017"
+  url: "https://hegde95.github.io/ProjectThesis.pdf"
+  # repo: "https://github.com/hegde95/Spoken_language_classifier"
+  summary: Undergraduate Thesis, sEMG signal controlled speech production aid for speech challenged individuals using Machine Learning. The signals were collected, filtered, pre-processed and then fed to a classifier that would predict the hand action performed. The action would then be translated to speech.
+  tags: ["machine learning", "signal processing"]
+
+- name: Emotion Detection
+  role: Team member
+  timeline: "August 2015 - December 2015"
+  url: "https://hegde95.github.io/EmotionRecognition.pdf"
+  # repo: "https://github.com/hegde95/Spoken_language_classifier"
+  summary: I was part of a three member team that built a Machine Learning driven emotion detector using variations in speech signals. Using MFCC feature extraction and PCA on other features, we built a classifier.
+  tags: ["machine learning", "signal processing"]
+
+
+# - name: Nocode
+#   logo: /images/sections/projects/no-code.png
+#   role: Nothing
+#   timeline: "Oct 2019 - Dec 2019"
+#   repo: https://github.com/kelseyhightower/nocode
+#   #url: ""
+#   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+#   tags: ["hobby", "fun"]
+
+# - name: Toha
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+#   timeline: "Jun 2019 - Present"
+#   repo: https://github.com/hossainemruz/toha
+#   summary: A Hugo theme for personal portfolio.
+#   tags: ["hobby","hugo","theme","professional"]
