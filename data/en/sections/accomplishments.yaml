@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Accomplishments
+  name: Accomplishments and Service
   id: accomplishments
   enable: true
   weight: 8
@@ -11,36 +11,55 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: USC Annenberg Fellow
+  timeline: "August 2021 - July 2022"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: USC
+    url: https://www.usc.edu/
+  courseOverview: Awarded a 1 year Fellowship for my PhD.
+  # certificateURL: "https://example.com"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: Masters Student Honors Program
+  timeline: "August 2019 - May 2021"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    name: USC
+    url: https://www.usc.edu/
+  courseOverview: Certificate for outstanding academic and research achievements. [PDF](https://drive.google.com/file/d/1djUmdEsNsV79VZD9PZrSuDi_g4JKgMR4/view?usp=sharing)
+  # certificateURL: ""
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: The Data Open
+  # timeline: "Jan 2018 - Sept 2018"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: Citadel
+    # url: https://www.educative.io
+  courseOverview: Was a finalist in the SoCal round of the Data Open Hackathon organized by Citadel. [PDF](https://hegde95.github.io/Datathon.pdf)
+  # certificateURL: "https://example.com"
+  # details: https://hegde95.github.io/Datathon.pdf
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: Soda bottle classification contest
+  # timeline: "Nov 2017 - Mar 2018"
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
+    name: Deep Congintion
+    # url: https://www.udemy.com
+  courseOverview: Winner of image classification contest by Deep Cognition.[link](https://deepcognition.ai/soda-bottle-identification-challenge/)
+  # certificateURL: "https://example.com"
+ 
+- name: Teaching Assistant
+  timeline: "August 2022 - Decemeber 2022"
+  organization:
+    name: USC
+    url: https://www.usc.edu/
+  courseOverview: EE541 - A Computational Introduction to Deep Learning \
+  
+   EE641 - Deep Learning Systems
+  # certificateURL: "https://example.com"
+ 
+- name: Invited Speaker
+  # timeline: "Nov 2017 - Mar 2018"
+  organization:
+    name:  Sears Deep Learning Center Program
+    # url: https://www.udemy.com
+  courseOverview: Delivered a company wide talk on SOTA applied Deep Reinforcement Learning. [pdf](https://docs.google.com/presentation/d/1o6Xk72dysR1NBkjC5atEnxPXqdHGRVa9/edit?usp=sharing&ouid=102978441719964927294&rtpof=true&sd=true)
+  # certificateURL: "https://example.com"
  
 

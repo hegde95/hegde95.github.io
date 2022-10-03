@@ -1,9 +1,9 @@
 # section information
 section:
-  name: Publications
+  name: Select Publications
   id: publications
   enable: true
-  weight: 6
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -12,71 +12,106 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "Reinfocement Learning"
+  filter: "reinforcement learning"
+- name: "Signal Processing"
+  filter: "signal processing"
+- name: Robotics
+  filter: "robotics"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
 
-- title: An Sample Paper on Image Processing
+- title: Efficiently Learning Small Policies for Locomotion and Manipulation
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: (Submitted to ICRA23)
+    # date: 7 June 2020
+    # url: https://sites.google.com/usc.edu/graphhyperpolicy/home
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+  - name: Shashank Hegde
+    url: https://hegde95.github.io/
+  - name: Dr. Gaurav Sukhatme
+    url: https://robotics.usc.edu/resl/people/1/
 
-- title: An Example Paper on Security
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary:  We leverage graph hyper networks to learn graph hyper policies trained with off-policy reinforcement learning resulting in networks that are two orders of magnitude smaller than commonly used networks yet encode policies comparable to those encoded by much larger networks trained on the same task. 
+    url: https://sites.google.com/usc.edu/graphhyperpolicy/home
+  categories: ["reinforcement learning","robotics"]
+  tags: ["reinforcement learning", "robotics"]
+
+- title: Guided Learning of Robust Hurdling Policies with Curricular Trajectory Optimization
+  publishedIn:
+    name:  Southern California Robotics Symposium
+    date: 2022
+    url: https://www.scr.ucla.edu/
+  authors:
+  - name: Gautam Salhotra
+    url: https://www.gautamsalhotra.com/
+  - name: Shashank Hegde
+    url: https://hegde95.github.io/
+  - name: Sumeet Batra
+    url: https://sumeetbatra.github.io/
+  - name: Dr. Peter Englert
+    url: http://www.peter-englert.net/
+  - name: Dr. Gaurav Sukhatme
+    url: https://robotics.usc.edu/resl/people/1/
+
+  paper:
+    summary: In this work, we focus on the combination of analytical and learning-based techniques to help researchers solve challenging robot locomotion problems. Specifically, we explore the combination of curricular trajectory optimization (CTO) and deep reinforcement learning (RL) for quadruped hurdling tasks.
+    url: https://sites.google.com/usc.edu/cto-rl/home
+  categories: ["reinforcement learning", "robotics"]
+  tags: ["reinforcement learning", "robotics"]
+
+- title: Agents that Listen, High-Throughput Reinforcement Learning with Multiple Sensory Systems
+  publishedIn:
+    name:  IEEE Conference on Games
+    date: 2021
+    url: https://ieee-cog.org/2021/
+  authors:
+  - name: Shashaank Hegde
+    url: https://hegde95.github.io/
+  - name: Dr. Anssi Kanervisto
+    url: https://www.microsoft.com/en-us/research/people/t-anssik/
+  - name: Aleksie Petrenko
+    url: https://alex-petrenko.github.io/
+  paper:
+    summary: We introduce a new version of VizDoom simulator to create a highly efficient learning environment that provides raw audio observations. We study the performance of different model architectures in a series of tasks that require the agent to recognize sounds and execute instructions given in natural language. Finally, we train our agent to play the full game of Doom and find that it can consistently defeat a traditional vision-based adversary.
+    url: https://sites.google.com/view/sound-rl
+  categories: ["reinforcement learning", "signal processing"]
+  tags: ["reinforcement learning", "signal processing"]
+
+- title: Randomized Policy Learning for Continuous State and Action MDPs
+  publishedIn:
+    name:  Arxiv
+    date: 2020
+    # url: https://ieee-cog.org/2021/
+  authors:
+  - name: Dr. Hiteshi Sharma
+    url: https://www.microsoft.com/en-us/research/people/hitshar/
+  - name: Shashank Hegde
+    url: https://hegde95.github.io/
+  - name: Rahul Jain
+    url: https://www.rahuljain.net/
+  paper:
+    summary:  We present RANDPOL, a generalized policy iteration algorithm for MDPs with continuous state and action spaces. Both the policy and value functions are represented with randomized networks. We also give finite time guarantees on the performance of the algorithm.
+    url: https://arxiv.org/pdf/2006.04331.pdf
+  categories: ["reinforcement learning"]
+  tags: ["reinforcement learning"]
+
+- title: Risk aware portfolio construction using deep deterministic policy gradients
+  publishedIn:
+    name:  IEEE Symposium Series on Computational Intelligence (SSCI)
+    date: 2018
+    # url: https://ieee-cog.org/2021/
+  authors:
+  - name: Shashank Hegde
+    url: https://hegde95.github.io/
+  - name: Vishal Kumar
+    # url: https://www.rahuljain.net/
+  - name: Dr. Atul Singh
+    # url: https://www.microsoft.com/en-us/research/people/asingh/
+  paper:
+    summary:  This paper evaluates the use of DDPG to solve the problem of risk aware portfolio construction. Simulations are done on a portfolio of twenty stocks and the use of both Rate of Return and Sortino ratio as a measure of portfolio performance are evaluated. Results are presented that demonstrate the effectiveness of DDPG for risk aware portfolio construction.
+    url: https://ieeexplore.ieee.org/abstract/document/8628791
+  categories: ["reinforcement learning", "finance"]
+  tags: ["reinforcement learning", "finance"]
