@@ -40,9 +40,9 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/karkala-shashank-hegde/"
 
-# - name: Twitter
-#   icon: "fab fa-twitter"
-#   url: "#"
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/hegde_shashank"
 
 # - name: Facebook
 #   icon: "fab fa-facebook"
