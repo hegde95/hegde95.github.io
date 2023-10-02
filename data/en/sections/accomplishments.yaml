@@ -51,7 +51,9 @@ accomplishments:
     url: https://www.usc.edu/
   courseOverview: EE541 - A Computational Introduction to Deep Learning \
   
-   EE641 - Deep Learning Systems
+   EE641 - Deep Learning Systems \
+
+   CSCI567 - Machine Learning \
   # certificateURL: "https://example.com"
  
 - name: Invited Speaker
@@ -62,4 +64,11 @@ accomplishments:
   courseOverview: Delivered a company wide talk on SOTA applied Deep Reinforcement Learning. [pdf](https://docs.google.com/presentation/d/1o6Xk72dysR1NBkjC5atEnxPXqdHGRVa9/edit?usp=sharing&ouid=102978441719964927294&rtpof=true&sd=true)
   # certificateURL: "https://example.com"
  
+- name: Guest Lecture
+  # timeline: "Nov 2017 - Mar 2018"
+  organization:
+    name:  For the graduate machine learning course
+    # url: https://www.udemy.com
+  courseOverview: Presented a talk on Generative models for robotics
+  # certificateURL: "https://example.com"
 

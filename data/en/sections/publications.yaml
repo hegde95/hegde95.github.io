@@ -16,17 +16,55 @@ buttons:
   filter: "reinforcement learning"
 - name: "Signal Processing"
   filter: "signal processing"
+- name: "Diffusion"
+  filter: "diffusion"
 - name: Robotics
   filter: "robotics"
 
 # your publications
 publications:
 
+- title: HyperPPO: A scalable method for finding small policies for robotic control
+  publishedIn:
+    name: (Submitted to ICRA24)
+    # date: 7 June 2020
+    # url: https://sites.google.com/usc.edu/hyperppo
+  authors:
+  - name: Shashank Hegde
+    url: https://hegde95.github.io/
+  - name: Dr. Gaurav Sukhatme
+    url: https://robotics.usc.edu/resl/people/1/
+  paper:
+    summary:  We propose HyperPPO, an on-policy reinforcement learning algorithm that utilizes graph hypernetworks to estimate the weights of multiple neural architectures simultaneously. Our method estimates weights for networks that are much smaller than those in common-use networks yet encode highly performant policies. We obtain multiple trained policies at the same time while maintaining sample efficiency and provide the user the choice of picking a network architecture that satisfies their computational constraints.
+    url: https://sites.google.com/usc.edu/hyperppo
+  categories: ["diffusion","robotics"]
+  tags: ["diffusion", "robotics"]
+
+  ##########################################################################
+
+- title: Generating Behaviorally Diverse Policies with Latent Diffusion Models
+  publishedIn:
+    name: (Accepted at NeurIPS23)
+    # date: 7 June 2020
+    # url: https://sites.google.com/view/policydiffusion/home
+  authors:
+  - name: Shashank Hegde
+    url: https://hegde95.github.io/
+  - name: Dr. Gaurav Sukhatme
+    url: https://robotics.usc.edu/resl/people/1/
+  paper:
+    summary:  In this work, we propose using diffusion models to distill a dataset of policies into a single generative model over policy parameters. We show that our method achievesa compression ratio of 13x while recovering 98% of the original rewards and 89% of the original coverage. Furthermore, the conditioning mechanism of diffusion models allows for flexibly selecting and sequencing behaviors using language.
+    url: https://sites.google.com/view/policydiffusion/home
+  categories: ["diffusion","robotics"]
+  tags: ["diffusion", "robotics"]
+
+  ##########################################################################
+
 - title: Efficiently Learning Small Policies for Locomotion and Manipulation
   publishedIn:
-    name: (Submitted to ICRA23)
-    # date: 7 June 2020
-    # url: https://sites.google.com/usc.edu/graphhyperpolicy/home
+    name: (Presented at ICRA23)
+    date: 29 May 2023
+    url: https://www.icra2023.org/
   authors:
   - name: Shashank Hegde
     url: https://hegde95.github.io/
@@ -38,6 +76,8 @@ publications:
     url: https://sites.google.com/usc.edu/graphhyperpolicy/home
   categories: ["reinforcement learning","robotics"]
   tags: ["reinforcement learning", "robotics"]
+
+  ##########################################################################
 
 - title: Guided Learning of Robust Hurdling Policies with Curricular Trajectory Optimization
   publishedIn:
@@ -62,6 +102,8 @@ publications:
   categories: ["reinforcement learning", "robotics"]
   tags: ["reinforcement learning", "robotics"]
 
+  ##########################################################################
+
 - title: Agents that Listen, High-Throughput Reinforcement Learning with Multiple Sensory Systems
   publishedIn:
     name:  IEEE Conference on Games
@@ -80,6 +122,8 @@ publications:
   categories: ["reinforcement learning", "signal processing"]
   tags: ["reinforcement learning", "signal processing"]
 
+  ##########################################################################
+
 - title: Randomized Policy Learning for Continuous State and Action MDPs
   publishedIn:
     name:  Arxiv
@@ -97,6 +141,8 @@ publications:
     url: https://arxiv.org/pdf/2006.04331.pdf
   categories: ["reinforcement learning"]
   tags: ["reinforcement learning"]
+
+  ##########################################################################
 
 - title: Risk aware portfolio construction using deep deterministic policy gradients
   publishedIn:
