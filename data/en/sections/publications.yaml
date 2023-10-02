@@ -39,8 +39,8 @@ publications:
   paper:
     summary:  We propose HyperPPO, an on-policy reinforcement learning algorithm that utilizes graph hypernetworks to estimate the weights of multiple neural architectures simultaneously. Our method estimates weights for networks that are much smaller than those in common-use networks yet encode highly performant policies. We obtain multiple trained policies at the same time while maintaining sample efficiency and provide the user the choice of picking a network architecture that satisfies their computational constraints.
     url: https://sites.google.com/usc.edu/hyperppo
-  categories: ["diffusion","robotics"]
-  tags: ["diffusion", "robotics"]
+  categories: ["reinforcement learning","robotics"]
+  tags: ["reinforcement learning", "robotics"]
 
   ##########################################################################
 
