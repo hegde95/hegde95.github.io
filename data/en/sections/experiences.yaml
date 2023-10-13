@@ -42,7 +42,7 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Built data pipelines for collection, cleaning and modelling. Use real time Markov modelling for a sales process.
+    - Built data pipelines for collection, cleaning and modeling. Use real time Markov modeling for a sales process.
     - Built model free reinforcement learning algorithms to build AI strategies on this sales simulation.
 
 - company:
@@ -52,7 +52,7 @@ experiences:
     # company overview
     overview: SSLL is a research lab at the University of Southern California. The lab is headed by Prof. Rahul Jain. The lab is focused on theoretical reinforcement learning .
   positions:
-  - designation: Reasearch Assistant
+  - designation: Research Assistant
     start: May 2020
     end: May 2021
     responsibilities:
@@ -66,7 +66,7 @@ experiences:
     # company overview
     overview: DRCL is a research lab at the University of Southern California. The lab is headed by Prof. Quan Nguyen. The lab is focused on robotic control.
   positions:
-  - designation: Reasearch Assistant
+  - designation: Research Assistant
     start: November 2019
     end: October 2020
     responsibilities:

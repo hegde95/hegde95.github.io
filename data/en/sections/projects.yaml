@@ -43,7 +43,7 @@ projects:
   summary: As a part of the Autonomous Vehicle lab, I worked on navigation, path planning and simulation of an autonomous car to take part in IGVC 2021. I used Gazebo to build an accurate simulation of the track, and implement path finding algorithms such as A star.
   tags: ["autonomous vehicles"]
 
-- name: Competetive and Co-operative Multi Agent Reinforcement Learning
+- name: Competitive and Co-operative Multi Agent Reinforcement Learning
   # logo: /images/sections/projects/tensorflow.png
   role: Individual Researcher
   timeline: "Jun 2020 - August 2020"
