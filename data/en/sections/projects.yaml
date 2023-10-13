@@ -29,7 +29,7 @@ projects:
   # logo: /images/sections/projects/kubernetes.png
   role: Individual Researcher
   timeline: "September 2023 - October 2023"
-  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  repo: https://github.com/hegde95/Paper_list_tagger # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Apply BERT sentence transformer to encode abstracts of hundreds of papers, and then find cosine similarity of the encoding with that of topic definitions to rank and tag them
   tags: ["machine learning"]
@@ -47,7 +47,7 @@ projects:
   # logo: /images/sections/projects/tensorflow.png
   role: Individual Researcher
   timeline: "Jun 2020 - August 2020"
-  url: https://hegde95.github.io/Deep_Reinforcement_Learning.pdf
+  url: https://hegde95.github.io/files/Deep_Reinforcement_Learning.pdf
   #url: ""
   summary: As a part of my directed research with the Hardware Accelerated Learning group, I’m experimented with various multi agent reinforcement learning algorithms. The goal of this project is to understand the state of the art RL algorithms that work well in both competitive and cooperative environments.
   tags: ["machine learning", "deep reinforcement learning"]
@@ -87,7 +87,7 @@ projects:
 - name: Prosthetic Voice (Thesis)
   role: Team member
   timeline: "August 2016 - May 2017"
-  url: "https://hegde95.github.io/ProjectThesis.pdf"
+  url: "https://hegde95.github.io/files/ProjectThesis.pdf"
   # repo: "https://github.com/hegde95/Spoken_language_classifier"
   summary: Undergraduate Thesis, sEMG signal controlled speech production aid for speech challenged individuals using Machine Learning. The signals were collected, filtered, pre-processed and then fed to a classifier that would predict the hand action performed. The action would then be translated to speech.
   tags: ["machine learning", "signal processing"]
@@ -95,7 +95,7 @@ projects:
 - name: Emotion Detection
   role: Team member
   timeline: "August 2015 - December 2015"
-  url: "https://hegde95.github.io/EmotionRecognition.pdf"
+  url: "https://hegde95.github.io/files/EmotionRecognition.pdf"
   # repo: "https://github.com/hegde95/Spoken_language_classifier"
   summary: I was part of a three member team that built a Machine Learning driven emotion detector using variations in speech signals. Using MFCC feature extraction and PCA on other features, we built a classifier.
   tags: ["machine learning", "signal processing"]
