@@ -11,6 +11,21 @@ section:
 
 # Your accomplishments
 accomplishments:
+- name: Reviewer
+  timeline: "August 2021 - Present"
+  organization:
+    name: NeurIPS (2025). ICRA (2023, 2025), IROS 2023. CoRL (2024, 2025), ICLR 2025, IEEE RA-L(2023, 2024, 2025)
+    # url: https://www.usc.edu/
+  courseOverview: Reviewer for Conferences.
+
+- name: Organizer
+  timeline: "August 2021 - Present"
+  organization:
+    name: USC Robotics Seminar
+    # url: https://www.usc.edu/
+  courseOverview: Organizer for the USC Robotics Seminar.
+
+
 - name: USC Annenberg Fellow
   timeline: "August 2021 - July 2022"
   organization:

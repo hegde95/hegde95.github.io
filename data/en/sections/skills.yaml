@@ -23,12 +23,17 @@ skills:
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "Worked with most of the major clouds such as OCI, GCP, AWS, Azure etc."
 
 - name: Pytorch
   logo: /images/sections/skills/pytorch.png
   summary: "Worked with Pytorch for over 2 years now. I am comfortable with the Pytorch ecosystem and have written many custom modules."
   url: "https://pytorch.org/"
+
+- name: SLURM
+  logo: /images/sections/skills/slurm.png
+  summary: "As the lab SLURM cluster admin, I am familiar with the SLURM cluster and have written many custom modules. Further, I have experience in using SLURM for distributed learning on large scale h100 GPU clusters at NVIDIA"
+  url: "https://slurm.schedmd.com/documentation.html"
 
 - name: Matlab
   logo: /images/sections/skills/matlab.png
