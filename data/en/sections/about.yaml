@@ -44,6 +44,9 @@ socialLinks:
   icon: "fab fa-twitter"
   url: "https://twitter.com/hegde_shashank"
 
+- name: Google Scholar
+  icon: "fas fa-graduation-cap"
+  url: "https://scholar.google.com/citations?user=QbCHQHUAAAAJ&hl=en"
 # - name: Facebook
 #   icon: "fab fa-facebook"
 #   url: "#"
