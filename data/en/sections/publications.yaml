@@ -14,20 +14,128 @@ buttons:
   filter: "all"
 - name: "Reinfocement Learning"
   filter: "reinforcement learning"
-- name: "Signal Processing"
-  filter: "signal processing"
 - name: "Diffusion"
   filter: "diffusion"
 - name: Robotics
   filter: "robotics"
-
+- name: "Autonomous Vehicles"
+  filter: "autonomous vehicles"
+- name: "World Models"
+  filter: "world models"
+- name: "Machine Learning"
+  filter: "machine learning"
+- name: "Signal Processing"
+  filter: "signal processing"
+# - name: "QEC"
+#   filter: "quantum error correction"
 # your publications
 publications:
+- title: Latent Weight Diffusion, Generating reactive policies instead of trajectories.
+  publishedIn:
+    name: (Accepted at NeurIPS 2025 Embodied World Models for Decision Making Workshop, RSS 2025 Resource constrained robotics workshop, Submitted to ICLR 2026)
+    date: 2025
+    # url: https://sites.google.com/view/policydiffusion/home
+  authors:
+  - name: Shashank Hegde
+    url: https://hegde95.github.io/
+  - name: Satyajeet Das
+    url: https://www.linkedin.com/in/satyajeet-das/
+  - name: Dr. Gautam Salhotra
+    url: https://www.gautamsalhotra.com/  
+  - name: Dr. Gaurav Sukhatme
+    url: https://robotics.usc.edu/resl/people/1/
+  paper:
+    summary:  Currently, large generalized policies are trained to predict controls or trajectories using diffusion models, which have the desirable property of learning multimodal action distributions. However, generalizability comes with a cost, namely, larger model size and slower inference. This is especially an issue for robotic tasks that require high control frequency. Further, there is a known trade-off between performance and action horizon for Diffusion Policy (DP), a popular model for generating trajectories - fewer diffusion queries accumulate greater trajectory tracking errors. For these reasons, it is common practice to run these models at high inference frequency, subject to robot computational constraints. To address these limitations, we propose Latent Weight Diffusion (LWD), a method that uses diffusion and a world model to generate closed-loop policies (weights for neural policies) for robotic tasks, rather than generating trajectories. Learning the behavior distribution through parameter space over trajectory space offers two key advantages - longer action horizons (fewer diffusion queries) & robustness to perturbations while retaining high performance; and a lower inference compute cost. To this end, we show that LWD has higher success rates than DP when the action horizon is longer and when stochastic perturbations exist in the environment. Furthermore, LWD achieves multitask performance comparable to DP while requiring just ~ 1/45th of the inference-time FLOPS per step.
+    url: files/EWM_workshop.pdf
+  categories: ["diffusion","robotics","robotics","world models"]
+  tags: ["diffusion", "robotics", "robotics", "world models"]
+
+  ##########################################################################
+
+- title: Mitigating Covariate Shift in Imitation Learning for Autonomous Vehicles Using Latent Space Generative World Models.
+  publishedIn:
+    name: (ICRA 2025, Robots in the wild workshop, Submitted to ICRA 2026)
+    date: 2025
+    # url: https://sites.google.com/usc.edu/hyperppo
+  authors:
+  - name: Alexander Popov
+    url: https://www.linkedin.com/in/alexander-popov-a1398b69/
+  - name: Alperen Degirmenci
+    url: https://www.linkedin.com/in/alperen-degirmenci-66404735/
+  - name: David Wehr
+    url: https://www.linkedin.com/in/davidawehr/
+  - name: Shashank Hegde
+    url: https://hegde95.github.io/
+  - name: Ryan Oldja
+    url: https://www.linkedin.com/in/roldja/
+  - name: Dr. Alexey Kamenev
+    url: https://www.linkedin.com/in/alexeykamenev/
+  - name: Dr. Bertrand Douillard
+    url: https://www.linkedin.com/in/bertrand-douillard-6804b314/
+  - name: David Nister
+    url: https://www.linkedin.com/in/david-nister/
+  - name: Dr. Urs Muller
+    url: https://www.linkedin.com/in/ursmuller/
+  - name: Ruchi Bhargava
+    url: https://www.linkedin.com/in/ruchibhargava/
+  - name: Dr. Stan Birchfield
+    url: https://sbirchfield.github.io/
+  - name: Dr. Nikolai Smolyanskiy
+    url: https://www.linkedin.com/in/nikolai-smolyanskiy-84b068a/
+  paper:
+    summary:  We propose the use of latent space generative world models to address the covariate shift problem in autonomous driving. A world model is a neural network capable of predicting an agent's next state given past states and actions. By leveraging a world model during training, the driving policy effectively mitigates covariate shift without requiring an excessive amount of training data. During end-to-end training, our policy learns how to recover from errors by aligning with states observed in human demonstrations, so that at runtime it can recover from perturbations outside the training distribution. Additionally, we introduce a novel transformer-based perception encoder that employs multi-view cross-attention and a learned scene query. We present qualitative and quantitative results, demonstrating significant improvements upon prior state of the art in closed-loop testing in the CARLA simulator, as well as showing the ability to handle perturbations in both CARLA and NVIDIA's DRIVE Sim.
+    url: https://www.youtube.com/watch?v=7m3bXzlVQvU
+  categories: ["world models", "autonomous vehicles"]
+  tags: ["world models", "autonomous vehicles"]
+
+  ##########################################################################
+
+- title: Optimizing continuous-time quantum error correction for arbitrary noise
+  publishedIn:
+    name: (arXiv)
+    date: 2025
+    # url: https://sites.google.com/usc.edu/hyperppo
+  authors:
+  - name: Anirudh Lanka
+    url: https://www.linkedin.com/in/anirudhlanka98/
+  - name: Shashank Hegde
+    url: https://hegde95.github.io/
+  - name: Dr. Todd Andrew Brun
+    url: https://viterbi.usc.edu/directory/faculty/Brun/Todd
+  paper:
+    summary:  We propose a method to optimize continuous-time quantum error correction for arbitrary noise.
+    url: https://arxiv.org/abs/2506.21707
+  categories: ["machine learning","quantum error correction"]
+  tags: ["machine learning", "quantum error correction"]
+
+  ##########################################################################
+
+- title: Active steering into quantum stabilizer codespace with reinforcement learning
+  publishedIn:
+    name: (APS March Meeting 2024)
+    date: 2024
+    # url: https://sites.google.com/usc.edu/hyperppo
+  authors:
+  - name: Anirudh Lanka
+    url: https://www.linkedin.com/in/anirudhlanka98/
+  - name: Dr. Prithviraj Prabhu
+    url: https://www.linkedin.com/in/prithviraj-prabhu-91051b108/
+  - name: Shashank Hegde
+    url: https://hegde95.github.io/
+  - name: Dr. Todd Andrew Brun
+    url: https://viterbi.usc.edu/directory/faculty/Brun/Todd
+  paper:
+    summary:  We use reinforcement learning to steer a quantum state into a stabilizer codespace.
+    url: https://meetings.aps.org/Meeting/MAR24/Session/A49.5
+  categories: ["reinforcement learning","quantum error correction"]
+  tags: ["reinforcement learning", "quantum error correction"]
+
+  ##########################################################################
 
 - title: HyperPPO- A scalable method for finding small policies for robotic control
   publishedIn:
-    name: (Submitted to ICRA24)
-    # date: 7 June 2020
+    name: (Accepted at ICRA24)
+    date: 2024
     # url: https://sites.google.com/usc.edu/hyperppo
   authors:
   - name: Shashank Hegde
@@ -47,7 +155,7 @@ publications:
 - title: Generating Behaviorally Diverse Policies with Latent Diffusion Models
   publishedIn:
     name: (Accepted at NeurIPS23)
-    # date: 7 June 2020
+    date: 2023
     # url: https://sites.google.com/view/policydiffusion/home
   authors:
   - name: Shashank Hegde
@@ -67,7 +175,7 @@ publications:
 - title: Efficiently Learning Small Policies for Locomotion and Manipulation
   publishedIn:
     name: (Presented at ICRA23)
-    date: 29 May 2023
+    date: 2023
     url: https://www.icra2023.org/
   authors:
   - name: Shashank Hegde
@@ -89,7 +197,7 @@ publications:
     date: 2022
     url: https://www.scr.ucla.edu/
   authors:
-  - name: Gautam Salhotra
+  - name: Dr. Gautam Salhotra
     url: https://www.gautamsalhotra.com/
   - name: Shashank Hegde
     url: https://hegde95.github.io/
@@ -118,7 +226,7 @@ publications:
     url: https://hegde95.github.io/
   - name: Dr. Anssi Kanervisto
     url: https://www.microsoft.com/en-us/research/people/t-anssik/
-  - name: Aleksie Petrenko
+  - name: Dr. Aleksie Petrenko
     url: https://alex-petrenko.github.io/
   paper:
     summary: We introduce a new version of VizDoom simulator to create a highly efficient learning environment that provides raw audio observations. We study the performance of different model architectures in a series of tasks that require the agent to recognize sounds and execute instructions given in natural language. Finally, we train our agent to play the full game of Doom and find that it can consistently defeat a traditional vision-based adversary.
@@ -165,3 +273,24 @@ publications:
     url: https://ieeexplore.ieee.org/abstract/document/8628791
   categories: ["reinforcement learning", "finance"]
   tags: ["reinforcement learning", "finance"]
+
+- title: Use of light emitting diodes (LEDs) for enhanced lipid production in micro-algae based biofuels
+  publishedIn:
+    name: Journal of Photochemistry and Photobiology B, Biology
+    date: 2017
+    # url: https://ieee-cog.org/2021/
+    # Alifha Severes a,Shashank Hegde b, L. D'Souza a, Smitha Hegde
+  authors:
+  - name: Dr. Alifha Severes
+    # url: https://www.rahuljain.net/
+  - name: Shashank Hegde
+    url: https://hegde95.github.io/
+  - name: Dr. L. D'Souza
+    # url: https://www.rahuljain.net/
+  - name: Dr. Smitha Hegde
+    # url: https://www.rahuljain.net/
+  paper:
+    summary:  Microalgae are an alternative source for renewable energy to overcome the energy crises caused by exhaustion of fuel reserves. Algal biofuel technology demands a cost effective strategy for net profitable productivity. Inconsistent illumination intensities hinder microalgal growth. The light-utilizing efficiency of the cells is critical. Light scarcity leads to low production and high intensities cause photo-inhibition. We report effective usage of LEDs of different band wavelengths on the growth of microalgae in a closed, controlled environment to generate biomass and lipid yields. Among the different intensity and wavelengths tested. The light intensities of 500 lx of blue-red combination gave maximum biomass in terms of cell density. LED of red light 220 lx wavelength doubled the lipid dry weight from 30% (w/w) in white light to 60% (w/w). Thin layer lipid chromatogram demonstrated a dense and prominent spot of triacylglycerols in the red light, 220 lx grown cultures. The FTIR profile indicates that different wavelength exposure did not alter the functional groups or change the chemical composition of the extracted lipids ensuring the quality of the product. We reiterate the fact that combination of red and blue LEDs is favoured over white light illumination for generation of biomass. In addition, we report an exciting finding of exposure to LEDs of red wavelength post-biomass generation lead to enhanced lipid production. This simple process doubled the lipid content harvested in 20 days culture period.
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1011134416308120
+  categories: []
+  tags: []

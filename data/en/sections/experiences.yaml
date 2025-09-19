@@ -11,6 +11,31 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: NVIDIA
+    url: "https://www.nvidia.com/"
+    location: Redmond, WA
+    # company overview
+    overview: Applied Research on Autonomous Vehicles with the applied research team. 
+  positions:
+  - designation: Applied Scientist Intern
+    start: May 2025
+    end: August 2025
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Trained a large-scale LLAMA transformer for self-driving vehicles using world model based imitation learning, reducing front collisions and improving policy safety.
+    - Developed generative models to produce BEV visualizations, revealing latent policy representations.
+  - designation: Deep Learning Scientist Intern
+    start: May 2024
+    end: December 2024
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Trained a video diffusion model to generate RGB frames and BEVs for self-driving vehicle scenarios.
+    - Utilized automatic mixed precision to bring down project costs by 30%.
+- company:
     name: Robotic Embedded Systems Lab, University of Southern California
     url: "https://robotics.usc.edu/resl/"
     location: Los Angeles, CA
@@ -79,7 +104,7 @@ experiences:
     location: Bangalore, India
     overview: Fidelity Investments is renowned financial institution that specializes in investment management, retirement planning, portfolio guidance, brokerage, benefits outsourcing, and many other financial products and services.
   positions:
-  - designation: Software Engineer
+  - designation: Data Scientist
     start: July 2017
     end: July 2019
     responsibilities:
