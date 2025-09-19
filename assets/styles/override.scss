@@ -1,0 +1,22 @@
+/* Custom overrides loaded last by Toha */
+
+/* Remove blur and zoom from the landing background */
+.home .background,
+.home .background#homePageBackgroundImageDivStyled,
+#homePageBackgroundImageDivStyled.background {
+  transform: none !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+@media (max-width: 768px) {
+  .home .background,
+  .home .background#homePageBackgroundImageDivStyled,
+  #homePageBackgroundImageDivStyled.background {
+    transform: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+}
+
+

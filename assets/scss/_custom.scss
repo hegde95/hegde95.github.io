@@ -3,6 +3,9 @@
 /* General fix: prevent tiling when using contain */
 #homePageBackgroundImageDivStyled {
   background-repeat: no-repeat;
+  /* Reduce global blur from theme's default */
+  transform: none;
+  filter: none;
 }
 
 @media (max-width: 768px) {
@@ -12,14 +15,14 @@
     background-position: center top; /* keep subject higher if needed */
     background-attachment: scroll;
     transform: none; /* remove extra zoom-in */
-    filter: blur(2px);
+    filter: none;
   }
 }
 
 /* Optional: slightly reduce zoom on small tablets as well */
 @media (min-width: 769px) and (max-width: 992px) {
   #homePageBackgroundImageDivStyled {
-    transform: scale(1.03);
+    transform: none;
     background-position: center;
   }
 }
