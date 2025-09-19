@@ -16,6 +16,30 @@
     transform: none !important;
     filter: none !important;
     -webkit-filter: none !important;
+    /* Show full image on phones to avoid cropping */
+    background-size: contain !important;
+    background-position: top center !important;
+    background-attachment: scroll !important;
+  }
+}
+
+/* Slightly shift focal area up on small tablets */
+@media (min-width: 769px) and (max-width: 992px) {
+  .home .background,
+  .home .background#homePageBackgroundImageDivStyled,
+  #homePageBackgroundImageDivStyled.background {
+    background-size: cover !important;
+    background-position: center top !important;
+  }
+}
+
+/* Very tall portrait screens: avoid clipping */
+@media (orientation: portrait) and (max-aspect-ratio: 3/4) {
+  .home .background,
+  .home .background#homePageBackgroundImageDivStyled,
+  #homePageBackgroundImageDivStyled.background {
+    background-size: contain !important;
+    background-position: top center !important;
   }
 }
 
