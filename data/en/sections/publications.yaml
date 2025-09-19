@@ -47,8 +47,8 @@ publications:
   paper:
     summary:  Currently, large generalized policies are trained to predict controls or trajectories using diffusion models, which have the desirable property of learning multimodal action distributions. However, generalizability comes with a cost, namely, larger model size and slower inference. This is especially an issue for robotic tasks that require high control frequency. Further, there is a known trade-off between performance and action horizon for Diffusion Policy (DP), a popular model for generating trajectories - fewer diffusion queries accumulate greater trajectory tracking errors. For these reasons, it is common practice to run these models at high inference frequency, subject to robot computational constraints. To address these limitations, we propose Latent Weight Diffusion (LWD), a method that uses diffusion and a world model to generate closed-loop policies (weights for neural policies) for robotic tasks, rather than generating trajectories. Learning the behavior distribution through parameter space over trajectory space offers two key advantages - longer action horizons (fewer diffusion queries) & robustness to perturbations while retaining high performance; and a lower inference compute cost. To this end, we show that LWD has higher success rates than DP when the action horizon is longer and when stochastic perturbations exist in the environment. Furthermore, LWD achieves multitask performance comparable to DP while requiring just ~ 1/45th of the inference-time FLOPS per step.
     url: files/EWM_workshop.pdf
-  categories: ["diffusion","robotics","robotics","world models"]
-  tags: ["diffusion", "robotics", "robotics", "world models"]
+  categories: ["diffusion","robotics","world models"]
+  tags: ["diffusion", "robotics", "world models"]
 
   ##########################################################################
 
