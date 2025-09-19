@@ -3,7 +3,7 @@ name: "Shashank Hegde"
 nickname: "Shashank"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
-image: "images/author/shashank.jpeg"
+image: "images/author/shashank_new.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "kshegde6@gmail.com"
@@ -13,12 +13,12 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  # - I'm a Researcher
-  # - I'm a Roboticist
-  # - I'm a PhD Student
+  - Researcher
+  - Roboticist
+  - PhD Candidate
   # - I love AI
   # - I'm a Developer
   # - I work on open-source projects
-  # - I'm a musician
+  - Musician
   # - I love music
   # - I love to work with some fun projects
