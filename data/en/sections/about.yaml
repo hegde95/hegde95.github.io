@@ -12,7 +12,7 @@ designation: AI PhD Researcher
 # your company information
 company:
   name: Robotics Embedded Systems Lab.
-  url: "https://robotics.usc.edu/resl/"
+  url: "https://uscresl.org/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
