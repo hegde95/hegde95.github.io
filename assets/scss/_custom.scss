@@ -1,0 +1,44 @@
+/* Custom overrides for mobile background scaling */
+
+/* General fix: prevent tiling when using contain */
+#homePageBackgroundImageDivStyled {
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  #homePageBackgroundImageDivStyled {
+    /* Ensure better fit on narrow screens */
+    background-size: cover; /* default for phones */
+    background-position: center top; /* keep subject higher if needed */
+    background-attachment: scroll;
+    transform: none; /* remove extra zoom-in */
+    filter: blur(2px);
+  }
+}
+
+/* Optional: slightly reduce zoom on small tablets as well */
+@media (min-width: 769px) and (max-width: 992px) {
+  #homePageBackgroundImageDivStyled {
+    transform: scale(1.03);
+    background-position: center;
+  }
+}
+
+/* Aspect-ratio based adjustments to avoid clipping on very tall portrait screens */
+@media (orientation: portrait) and (max-aspect-ratio: 3/4) {
+  #homePageBackgroundImageDivStyled {
+    background-size: contain; /* show full image without cropping */
+    background-position: top center;
+    background-attachment: scroll;
+  }
+}
+
+/* For extra-wide landscape screens, keep cover but center the focal area */
+@media (orientation: landscape) and (min-aspect-ratio: 21/9) {
+  #homePageBackgroundImageDivStyled {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
