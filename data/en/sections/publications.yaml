@@ -32,7 +32,7 @@ buttons:
 publications:
 - title: Latent Weight Diffusion, Generating reactive policies instead of trajectories.
   publishedIn:
-    name: (Accepted at NeurIPS 2025 Embodied World Models for Decision Making Workshop, RSS 2025 Resource constrained robotics workshop, Submitted to ICLR 2026)
+    name: NeurIPS 2025 Embodied World Models for Decision Making Workshop, RSS 2025 Resource constrained robotics workshop, Submitted to ICLR 2026
     date: 2025
     # url: https://sites.google.com/view/policydiffusion/home
   authors:
@@ -54,7 +54,7 @@ publications:
 
 - title: Mitigating Covariate Shift in Imitation Learning for Autonomous Vehicles Using Latent Space Generative World Models.
   publishedIn:
-    name: (ICRA 2025, Robots in the wild workshop, Submitted to ICRA 2026)
+    name: ICRA 2025, Robots in the wild workshop, Submitted to ICRA 2026
     date: 2025
     # url: https://sites.google.com/usc.edu/hyperppo
   authors:
@@ -92,7 +92,7 @@ publications:
 
 - title: Optimizing continuous-time quantum error correction for arbitrary noise
   publishedIn:
-    name: (arXiv)
+    name: Arxiv
     date: 2025
     # url: https://sites.google.com/usc.edu/hyperppo
   authors:
@@ -103,7 +103,7 @@ publications:
   - name: Dr. Todd Andrew Brun
     url: https://viterbi.usc.edu/directory/faculty/Brun/Todd
   paper:
-    summary:  We propose a method to optimize continuous-time quantum error correction for arbitrary noise.
+    summary:  We present a protocol using machine learning (ML) to simultaneously optimize the quantum error-correcting code space and the corresponding recovery map in the framework of continuous-time quantum error correction. Given a Hilbert space and a noise process -- potentially correlated across both space and time -- the protocol identifies the optimal recovery strategy, measured by the average logical state fidelity. This approach enables the discovery of recovery schemes tailored to arbitrary device-level noise.
     url: https://arxiv.org/abs/2506.21707
   categories: ["machine learning","quantum error correction"]
   tags: ["machine learning", "quantum error correction"]
@@ -112,7 +112,7 @@ publications:
 
 - title: Active steering into quantum stabilizer codespace with reinforcement learning
   publishedIn:
-    name: (APS March Meeting 2024)
+    name: APS March Meeting 2024
     date: 2024
     # url: https://sites.google.com/usc.edu/hyperppo
   authors:
@@ -125,7 +125,7 @@ publications:
   - name: Dr. Todd Andrew Brun
     url: https://viterbi.usc.edu/directory/faculty/Brun/Todd
   paper:
-    summary:  We use reinforcement learning to steer a quantum state into a stabilizer codespace.
+    summary:  The quantum error correction protocol has been a practical problem in quantum computation, especially in measuring high-weight stabilizers and decoding the error syndrome to find recovery operators. We propose a technique to actively maintain a quantum stabilizer codestate in the codespace even under the influence of decoherence. Our protocol uses continuous measurements of operators from the stabilizer algebra to perform Hamiltonian corrections. The measurement operators and the correction strengths are provided by a reinforcement learning agent. We process the measurement data by first applying an exponential averaging filter and then stacking the previous measurement outcomes before sending them to a reinforcement learning agent. The agent then provides correction strengths and the subsequent measurement operators. We demonstrate that this protocol can evolve any unknown quantum state into a stabilizer code state, and also maintain it within the codespace. This technique is particularly useful since it is scalable to higher dimensional quantum stabilizer codes.
     url: https://meetings.aps.org/Meeting/MAR24/Session/A49.5
   categories: ["reinforcement learning","quantum error correction"]
   tags: ["reinforcement learning", "quantum error correction"]
@@ -134,7 +134,7 @@ publications:
 
 - title: HyperPPO- A scalable method for finding small policies for robotic control
   publishedIn:
-    name: (Accepted at ICRA24)
+    name: ICRA 2024
     date: 2024
     # url: https://sites.google.com/usc.edu/hyperppo
   authors:
@@ -154,7 +154,7 @@ publications:
 
 - title: Generating Behaviorally Diverse Policies with Latent Diffusion Models
   publishedIn:
-    name: (Accepted at NeurIPS23)
+    name: NeurIPS 2023
     date: 2023
     # url: https://sites.google.com/view/policydiffusion/home
   authors:
@@ -174,7 +174,7 @@ publications:
 
 - title: Efficiently Learning Small Policies for Locomotion and Manipulation
   publishedIn:
-    name: (Presented at ICRA23)
+    name: ICRA 2023
     date: 2023
     url: https://www.icra2023.org/
   authors:
