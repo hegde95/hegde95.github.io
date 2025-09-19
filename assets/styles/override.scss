@@ -7,6 +7,7 @@
   transform: none !important;
   filter: none !important;
   -webkit-filter: none !important;
+  background-repeat: no-repeat !important;
 }
 
 @media (max-width: 768px) {
@@ -20,6 +21,7 @@
     background-size: contain !important;
     background-position: top center !important;
     background-attachment: scroll !important;
+    background-repeat: no-repeat !important;
   }
 }
 
