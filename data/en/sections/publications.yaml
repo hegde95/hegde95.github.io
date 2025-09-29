@@ -32,7 +32,7 @@ buttons:
 publications:
 - title: Latent Weight Diffusion, Generating reactive policies instead of trajectories.
   publishedIn:
-    name: NeurIPS 2025 Embodied World Models for Decision Making Workshop, RSS 2025 Resource constrained robotics workshop, Submitted to ICLR 2026
+    name: NeurIPS 2025 Embodied World Models for Decision Making Workshop, RSS 2025 Resource constrained robotics workshop
     date: 2025
     # url: https://sites.google.com/view/policydiffusion/home
   authors:
@@ -54,7 +54,7 @@ publications:
 
 - title: Mitigating Covariate Shift in Imitation Learning for Autonomous Vehicles Using Latent Space Generative World Models.
   publishedIn:
-    name: ICRA 2025, Robots in the wild workshop, Submitted to ICRA 2026
+    name: ICRA 2025, Robots in the wild workshop
     date: 2025
     # url: https://sites.google.com/usc.edu/hyperppo
   authors:
